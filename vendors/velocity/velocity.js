@@ -1493,16 +1493,16 @@ return function (global, window, document, undefined) {
                 if (Velocity.State.prefixMatches[property]) {
                     return [ Velocity.State.prefixMatches[property], true ];
                 } else {
-                    var lib = [ "", "Webkit", "Moz", "ms", "O" ];
+                    var vendors = [ "", "Webkit", "Moz", "ms", "O" ];
 
-                    for (var i = 0, libLength = lib.length; i < libLength; i++) {
+                    for (var i = 0, vendorsLength = vendors.length; i < vendorsLength; i++) {
                         var propertyPrefixed;
 
                         if (i === 0) {
                             propertyPrefixed = property;
                         } else {
                             /* Capitalize the first letter of the property to conform to JavaScript vendor prefix notation (e.g. webkitFilter). */
-                            propertyPrefixed = lib[i] + property.replace(/^\w/, function(match) { return match.toUpperCase(); });
+                            propertyPrefixed = vendors[i] + property.replace(/^\w/, function(match) { return match.toUpperCase(); });
                         }
 
                         /* Check if the browser supports this property as prefixed. */

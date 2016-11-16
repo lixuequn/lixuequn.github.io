@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lixuequn.github.io/"/>
-  <updated>2016-11-14T18:36:50.000Z</updated>
+  <updated>2016-11-16T01:04:22.000Z</updated>
   <id>https://lixuequn.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -15,9 +15,9 @@
     <link href="https://lixuequn.github.io/2016/11/15/github%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Dhexo/"/>
     <id>https://lixuequn.github.io/2016/11/15/github上搭建博客－hexo/</id>
     <published>2016-11-15T06:04:42.000Z</published>
-    <updated>2016-11-14T18:36:50.000Z</updated>
+    <updated>2016-11-16T01:04:22.000Z</updated>
     
-    <content type="html"><![CDATA[<p>1.<br>bloghexo    ／／建bloghexo文件夹<br>github 上创建lixuequn.github.io 仓库<br>2.<br>nvm install stable   //安装node<br>sudo npm install -g hexo  //bloghexo文件夹下面安装Hexo<br>hexo init   ／／bloghexo文件夹下面,初始化hexo<br>3.<br>hexo generate   //部署<br>4.<br>vim _config.yml   ／／修改配置文件，如下：<br>／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／<br>deploy:</p>
+    <content type="html"><![CDATA[<p>1.<br>bloghexo    ／／建bloghexo文件夹<br>github 上创建lixuequn.github.io 仓库<br>2.<br>nvm install stable   //安装node<br>sudo npm install -g hexo  //bloghexo文件夹下面安装Hexo<br>hexo init   ／／bloghexo文件夹下面,初始化hexo<br>3.<br>hexo generate   //部署<br><a id="more"></a><br>4.<br>vim _config.yml   ／／修改配置文件，如下：<br>／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／<br>deploy:</p>
 <pre><code>type:  git
 
 repo:  https://github.com/lixuequn/lixuequn.github.io.git
@@ -35,7 +35,7 @@ branch:  master
     
     <summary type="html">
     
-      &lt;p&gt;1.&lt;br&gt;bloghexo    ／／建bloghexo文件夹&lt;br&gt;github 上创建lixuequn.github.io 仓库&lt;br&gt;2.&lt;br&gt;nvm install stable   //安装node&lt;br&gt;sudo npm install -g hexo  /
+      &lt;p&gt;1.&lt;br&gt;bloghexo    ／／建bloghexo文件夹&lt;br&gt;github 上创建lixuequn.github.io 仓库&lt;br&gt;2.&lt;br&gt;nvm install stable   //安装node&lt;br&gt;sudo npm install -g hexo  //bloghexo文件夹下面安装Hexo&lt;br&gt;hexo init   ／／bloghexo文件夹下面,初始化hexo&lt;br&gt;3.&lt;br&gt;hexo generate   //部署&lt;br&gt;
     
     </summary>
     
@@ -71,12 +71,13 @@ branch:  master
     <link href="https://lixuequn.github.io/2016/11/14/hello-world/"/>
     <id>https://lixuequn.github.io/2016/11/14/hello-world/</id>
     <published>2016-11-13T16:00:00.000Z</published>
-    <updated>2016-11-14T18:36:50.000Z</updated>
+    <updated>2016-11-16T01:02:55.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
@@ -86,7 +87,10 @@ branch:  master
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     

@@ -49,14 +49,14 @@ branch:  master
     <link href="https://lixuequn.github.io/2016/11/15/hochoose-a-piano/"/>
     <id>https://lixuequn.github.io/2016/11/15/hochoose-a-piano/</id>
     <published>2016-11-15T05:02:00.000Z</published>
-    <updated>2016-11-14T18:36:50.000Z</updated>
+    <updated>2016-11-16T03:17:25.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://localhost:4000/images/piano.png" alt="log"></p>
+    <content type="html"><![CDATA[<p><img src="/images/piano.png" alt="log"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/piano.png&quot; alt=&quot;log&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/images/piano.png&quot; alt=&quot;log&quot;&gt;&lt;/p&gt;
 
     
     </summary>

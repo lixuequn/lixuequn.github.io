@@ -15,6 +15,7 @@ sudo npm install -g hexo  //bloghexo文件夹下面安装Hexo
 hexo init   ／／bloghexo文件夹下面,初始化hexo
 3.
 hexo generate   //部署
+<!-- more -->
 4.
 vim _config.yml   ／／修改配置文件，如下：
 ／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／／
@@ -31,7 +32,6 @@ deploy:
  npm install hexo-deployer-git --save
 6.
  hexo deploy     ／／提交
-
 
 
 7.

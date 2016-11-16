@@ -5,4 +5,4 @@ tags:
 categories:
 - music
 ---
-![log](http://localhost:4000/images/piano.png)
+![log](/images/piano.png)

@@ -13,11 +13,13 @@ avatar: /images/lpshenli.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://lixuequn.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+#rss
+rss: /atom.xml #rss地址  默认即可
 # Directory
 source_dir: source
 public_dir: public
@@ -26,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -72,13 +74,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/lixuequn/lixuequn.github.io.git
+  repository: http://github.com/lixuequn/lixuequn.github.io.git
   branch: master
-  
-
-
-
-
-
-
-
